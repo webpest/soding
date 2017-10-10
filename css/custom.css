@@ -1,0 +1,118 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4b454b;
+}
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  font-size: 13px;
+}
+.wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 2px solid #cbcbcb;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  border-color: #00227c;
+  color: #00227c;
+}
+.btn-primary {
+  background-color: #00227c;
+  border-color: transparent;
+  color: #fff;
+}
+.btn-primary:hover {
+  color: #dff6f8;
+}
+.add-btn {
+  border: 1px solid #00227c;
+  width: 20px;
+  height: 20px;
+  border-radius: 12px;
+  outline: none;
+  font-weight: bold;
+  background-color: transparent;
+  color: #00227c;
+  text-align: center;
+}
+.title-header {
+  text-align: center;
+  color: #00227c;
+  padding: 7px;
+  font-size: 16px;
+}
+.title-header::before {
+  content: "\0276F";
+  float: left;
+}
+
+.product {
+  background-color: #dff6f8;
+  color: #00227c;
+  padding: 15px 10px;
+}
+
+.item {
+  margin: 15px 0;
+  position: relative;
+}
+.item::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.item .close-item {
+  position: absolute;
+  top: 0;
+  left: calc(100% - 15px);
+  font-weight: bold;
+}
+.item .thumbnail,
+.item .desc {
+  display: inline-block;
+  float: left;
+}
+.desc h3 {
+  color: #00227c;
+}
+.thumbnail img {
+  margin-right: 15px;
+}
+.calculate {
+  margin: 15px 0;
+}
+.calx {
+  padding: 5px 0;
+}
+.calx h3 {
+  display: inline-block;
+}
+.calx span {
+  float: right;
+}
