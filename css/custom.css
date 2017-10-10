@@ -50,16 +50,23 @@ h3 {
 .btn-primary:hover {
   color: #dff6f8;
 }
-.add-btn {
-  border: 1px solid #00227c;
-  width: 20px;
-  height: 20px;
+.round-btn {
+  border: 0;
+  width: 22px;
+  height: 22px;
   border-radius: 12px;
   outline: none;
   font-weight: bold;
-  background-color: transparent;
-  color: #00227c;
+  background-color: #ccc;
   text-align: center;
+}
+.add-btn {
+  border: 1px solid #00227c;
+  background-color: transparent;
+  border-radius: 12px;
+}
+.qty {
+  padding: 0 7px;
 }
 .title-header {
   text-align: center;
